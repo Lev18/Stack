@@ -11,6 +11,6 @@ typedef struct {
 void init_stack(Stack* stack);
 void push(Stack* head, int data);
 void pop(Stack* stack);
-void top(Stack* stack);
+ListNode* top(Stack* stack);
 
 #endif
